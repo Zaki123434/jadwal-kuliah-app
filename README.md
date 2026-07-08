@@ -13,7 +13,7 @@ dashboard bergaya modern.
 | **Beranda**    | `.map()`      | Status akademik, aksi cepat, dan daftar mata kuliah aktif   |
 | **Pertemuan**  | `FlatList`    | Statistik akademik + daftar pertemuan (min. 10 item)        |
 | **Jadwal**     | `SectionList` | Jadwal dikelompokkan per hari + selector hari horizontal    |
-| Profil         | —             | Halaman pelengkap navigasi (bukan bagian wajib tugas)       |
+| Profil         | —             | Halaman pelengkap navigasi       |
 
 `FlatList` pada halaman Pertemuan mengimplementasikan:
 - `keyExtractor`
@@ -24,22 +24,22 @@ dashboard bergaya modern.
 `SectionList` pada halaman Jadwal:
 - Header per seksi (nama hari + tanggal) dengan gaya berbeda dari item biasa
 - `renderSectionFooter` menampilkan status "Tidak ada jadwal kuliah" untuk
-  hari tanpa jadwal (contoh: Rabu)
+  hari tanpa jadwal 
 
 ## Struktur Proyek
 
 ```
 jadwal-kuliah-app/
-├── App.js                     # Bottom Tab Navigator (4 tab)
+├── App.js                     
 ├── constants/
-│   └── theme.js               # Token warna, radius, shadow terpusat
+│   └── theme.js              
 ├── components/
-│   └── AppHeader.js           # Header (avatar, judul, notifikasi) reusable
+│   └── AppHeader.js           
 ├── data/
-│   ├── mataKuliah.js          # Data untuk halaman Beranda
-│   ├── dashboard.js           # Status akademik, aksi cepat, statistik
-│   ├── pertemuan.js           # Data untuk halaman Pertemuan
-│   └── jadwal.js              # Data untuk halaman Jadwal (per hari)
+│   ├── mataKuliah.js          
+│   ├── dashboard.js           
+│   ├── pertemuan.js           
+│   └── jadwal.js              
 └── screens/
     ├── BerandaScreen.js
     ├── PertemuanScreen.js
@@ -78,7 +78,15 @@ situs tersebut lalu tulis persis namanya di field `icon`.
 
 ## Screenshot
 
-_Tambahkan screenshot aplikasi kamu di sini setelah dijalankan._
+| Beranda | Pertemuan |
+|---|---|
+| ![Beranda](screenshots/beranda.png) | ![Pertemuan](screenshots/pertemuan.png) |
+
+| Jadwal | Profil |
+|---|---|
+| ![Jadwal](screenshots/jadwal.png) | ![Profil](screenshots/profil.png) |
+
+
 
 ---
 Dibuat untuk memenuhi tugas praktikum Pemrograman Mobile.
