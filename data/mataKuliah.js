@@ -1,0 +1,77 @@
+// =========================================================
+// DATA STATIS: DAFTAR MATA KULIAH
+// Dipakai di: screens/BerandaScreen.js (rendering pakai .map())
+// =========================================================
+
+export const mataKuliah = [
+  {
+    id: 'STI2546141',
+    nama: 'Pembelajaran Mesin',
+    kode: 'STI2546141',
+    sks: 3,
+    dosen: 'Mutia Fadhilla, S.ST., M.Sc',
+    kelas: 'E',
+    jadwalText: 'Kelas E · Senin, 07:00',
+    icon: 'bulb-outline',
+  },
+  {
+    id: 'STI2546143',
+    nama: 'Switching Routing dan Jaringan Nirkabel',
+    kode: 'STI2546143',
+    sks: 3,
+    dosen: 'Dr. Apri Siswanto, S.Kom., M.Kom',
+    kelas: 'E',
+    jadwalText: 'Kelas E · Senin, 10:30',
+    icon: 'wifi-outline',
+  },
+  {
+    id: 'MK003',
+    nama: 'Implementasi dan Pengujian Perangkat Lunak',
+    kode: '-',
+    sks: 3,
+    dosen: 'Panji Rachmat Setiawan, S.Kom., MMSI',
+    kelas: 'E',
+    jadwalText: 'Kelas E · Selasa, 08:00',
+    icon: 'checkmark-done-outline',
+  },
+  {
+    id: 'MK004',
+    nama: 'Big Data',
+    kode: '-',
+    sks: 3,
+    dosen: 'Mulyanto, S.T., M.Cs., Ph.D',
+    kelas: 'E',
+    jadwalText: 'Kelas E · Selasa, 10:30',
+    icon: 'server-outline',
+  },
+  {
+    id: 'STI2545250',
+    nama: 'Pemrosesan Bahasa Alami',
+    kode: 'STI2545250',
+    sks: 3,
+    dosen: 'Prof. Dr. Arbi Haza Nasution, B.IT.(Hons), M.IT',
+    kelas: 'C',
+    jadwalText: 'Kelas C · Rabu, 08:00',
+    icon: 'chatbubbles-outline',
+  },
+  {
+    id: 'STI2540165',
+    nama: 'Kerja Praktek',
+    kode: 'STI2540165',
+    sks: 2,
+    dosen: 'Team Teaching',
+    kelas: 'A',
+    jadwalText: 'Kelas A · Kamis, 08:00',
+    icon: 'briefcase-outline',
+  },
+  {
+    id: 'STI2546142',
+    nama: 'Pemrograman Mobile',
+    kode: 'STI2546142',
+    sks: 3,
+    dosen: 'Panji Rachmat Setiawan, S.Kom., MMSI',
+    kelas: 'B',
+    jadwalText: 'Kelas B · Jumat, 08:00',
+    icon: 'phone-portrait-outline',
+  },
+];
